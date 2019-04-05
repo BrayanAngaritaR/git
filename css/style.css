@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600');
+
+html {
+  scroll-behavior: smooth;
+}
+
+.jumbotron-img{
+	background-image: linear-gradient(to right top, #5f2ba6, #862b9d, #a33194, #b83e8c, #c84e85); border-radius: 0;
+}
+
+.text-img{color: #fff;}
+.text-img:hover{color: #fff;}
+
+.btn-outline-light {
+	color: #212529;
+	background-color: #f8f9fa;
+	border-color: #f8f9fa;
+	border-radius: 2px;
+	padding: 10px;
+}
+
+.btn-outline-light:hover {
+	color: #f8f9fa;
+	background-color: transparent;
+	background-image: none;
+	border-color: #f8f9fa;
+}
+
+.title-large{
+	font-size: 45px;
+	font-weight: 700;
+	font-family: 'Muli', sans-serif;
+}
+
+.modal-header{
+	border-bottom: 0;
+}
+
+.modal-content{
+	background-color: rgba(0,0,0,0);
+   border: rgba(0,0,0,0);
+}
+
+.close{color: #fff; cursor: pointer;}
+.close:not(:disabled):not(.disabled):focus, .close:not(:disabled):not(.disabled):hover{color: #fff;}
+
+/*Body*/
+
+.title-content{font-size: 35px;}
+
+img.img-description{
+	width: 30%;
+}
+
+@media screen and (max-width: 576px) {
+	img.img-description{
+		width: 15%;
+	}
+}
+
+
+.btn-buy{
+	background: linear-gradient(to right top, #5f2ba6, #862b9d, #a33194, #b83e8c, #c84e85);
+	color: #fff;
+	border:none;
+	padding: 0.400rem 1.75rem;
+}
+
+.btn-buy:hover{color: #fff; text-decoration: underline;}
+
+
+/*Footer*/
+
+.arrow{color: #b83e8c;}
+.footer-line{
+	border-bottom: 1px solid #b83e8c;
+}
